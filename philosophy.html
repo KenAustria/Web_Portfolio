@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Philosophy | Ken Austria</title>
+
+    <meta
+      name="description"
+      content="Ken Austria's teaching philosophy, focusing on computational thinking, authentic engineering practices, scaffolded problem-solving, and inclusive computer science education."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+              display: ["Oswald", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="bg-[#E5E3DD] text-black font-sans">
+    <!-- ========================================
+         HEADER / NAVIGATION
+    ========================================= -->
+
+    <header class="border-b border-gray-200">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12">
+        <div
+          class="flex flex-col md:flex-row md:items-center md:justify-between py-6 gap-6"
+        >
+          <!-- Brand -->
+          <a
+            href="index.html"
+            class="font-display text-2xl font-semibold tracking-tight hover:opacity-70 transition-opacity"
+          >
+            KEN AUSTRIA
+          </a>
+
+          <!-- Navigation -->
+          <nav aria-label="Main navigation">
+            <ul
+              class="flex flex-wrap items-center gap-x-6 gap-y-3 text-sm font-medium"
+            >
+              <li>
+                <a
+                  href="resume.html"
+                  class="border-b-2 border-transparent pb-1 hover:border-black transition-colors"
+                >
+                  Resume
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="recommendations.html"
+                  class="border-b-2 border-transparent pb-1 hover:border-black transition-colors"
+                >
+                  Recommendations
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="philosophy.html"
+                  aria-current="page"
+                  class="border-b-2 border-black pb-1 hover:opacity-70 transition-opacity"
+                >
+                  Philosophy
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="curriculum.html"
+                  class="border-b-2 border-transparent pb-1 hover:border-black transition-colors"
+                >
+                  Curriculum
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="projects.html"
+                  class="border-b-2 border-transparent pb-1 hover:border-black transition-colors"
+                >
+                  Projects
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="media.html"
+                  class="border-b-2 border-transparent pb-1 hover:border-black transition-colors"
+                >
+                  Media
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="contact.html"
+                  class="border-b-2 border-transparent pb-1 hover:border-black transition-colors"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- ========================================
+         MAIN CONTENT
+    ========================================= -->
+
+    <main>
+      <!-- ========================================
+             HERO SECTION
+        ========================================= -->
+
+      <section class="max-w-7xl mx-auto px-6 lg:px-12 py-20 md:py-28 lg:py-36">
+        <div class="max-w-5xl">
+          <p
+            class="text-sm font-semibold uppercase tracking-[0.2em] text-gray-500 mb-6"
+          >
+            Educational Framework
+          </p>
+
+          <h1
+            class="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold uppercase leading-[0.95] tracking-tight mb-10"
+          >
+            Teaching<br />
+            Philosophy
+          </h1>
+
+          <p
+            class="text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-700 max-w-4xl"
+          >
+            Cultivating resilient computational thinkers through authentic
+            engineering practices, scaffolded problem-solving, and radical
+            classroom inclusion.
+          </p>
+        </div>
+      </section>
+
+      <!-- ========================================
+             CS TEACHING INTRODUCTION VIDEO
+        ========================================= -->
+
+      <section class="border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 py-16 md:py-24">
+          <div
+            class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start"
+          >
+            <!-- Section Introduction -->
+            <div class="lg:col-span-4">
+              <p
+                class="text-sm font-semibold uppercase tracking-[0.2em] text-gray-500 mb-4"
+              >
+                Introduction
+              </p>
+
+              <h2
+                class="font-display text-4xl md:text-5xl uppercase leading-tight tracking-tight"
+              >
+                Computer Science<br />
+                Teaching
+              </h2>
+
+              <p
+                class="text-base md:text-lg leading-relaxed text-gray-700 mt-6"
+              >
+                An introduction to my approach to computer science education,
+                classroom practice, and the development of computational
+                thinkers.
+              </p>
+            </div>
+
+            <!-- Video -->
+            <div class="lg:col-span-8">
+              <div class="border border-[#CFCBC2] bg-black">
+                <div class="relative aspect-video w-full overflow-hidden">
+                  <iframe
+                    class="absolute inset-0 w-full h-full"
+                    src="https://www.youtube.com/embed/5jZSqGNyVoo?origin=http://127.0.0.1:5500"
+                    title="CS Teaching Introduction"
+                    frameborder="0"
+                    allow="
+                      accelerometer;
+                      autoplay;
+                      clipboard-write;
+                      encrypted-media;
+                      gyroscope;
+                      picture-in-picture;
+                      web-share;
+                    "
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+
+              <div
+                class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mt-4"
+              >
+                <p
+                  class="text-xs font-semibold uppercase tracking-[0.15em] text-gray-500"
+                >
+                  CS Teaching Introduction
+                </p>
+
+                <p class="text-xs uppercase tracking-wider text-gray-500">
+                  Ken Austria • Computer Science Educator
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+             TEACHING PHILOSOPHY STATEMENT
+        ========================================= -->
+
+      <section class="border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 py-16 md:py-24">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+            <!-- Section Label -->
+            <div class="lg:col-span-4">
+              <p
+                class="text-sm font-semibold uppercase tracking-[0.2em] text-gray-500"
+              >
+                Core Belief
+              </p>
+            </div>
+
+            <!-- Quote -->
+            <div class="lg:col-span-8">
+              <blockquote class="border-l-4 border-black pl-6 md:pl-8">
+                <p
+                  class="font-display text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight"
+                >
+                  “Computer science is not learned through passive consumption.
+                  It is mastered through deliberate creation, breaking code, and
+                  treating every runtime exception as a diagnostic discovery.”
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+             THREE PILLARS
+        ========================================= -->
+
+      <section class="border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 py-16 md:py-24">
+          <!-- Section Header -->
+          <div class="mb-16">
+            <p
+              class="text-sm font-semibold uppercase tracking-[0.2em] text-gray-500 mb-4"
+            >
+              Core Principles
+            </p>
+
+            <h2
+              class="font-display text-4xl md:text-5xl lg:text-6xl uppercase leading-tight tracking-tight"
+            >
+              Three Pillars<br />
+              of Instruction
+            </h2>
+          </div>
+
+          <!-- Pillars Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-12">
+            <!-- Pillar 01 -->
+            <article class="border-t-4 border-black pt-6">
+              <p
+                class="text-sm font-semibold uppercase tracking-[0.2em] text-gray-500 mb-6"
+              >
+                Pillar 01
+              </p>
+
+              <h3
+                class="font-display text-3xl md:text-4xl font-semibold uppercase leading-tight tracking-tight mb-6"
+              >
+                The Debugging Mindset
+              </h3>
+
+              <p class="text-base leading-relaxed text-gray-700">
+                Syntax errors and stack traces often induce anxiety in novice
+                programmers. My pedagogy deconstructs debugging into an
+                objective, systematic discipline. By teaching students how to
+                read compiler errors, leverage stack traces, and isolate edge
+                cases, failure shifts from a measure of aptitude to an expected
+                step in the engineering cycle.
+              </p>
+            </article>
+
+            <!-- Pillar 02 -->
+            <article class="border-t-4 border-black pt-6">
+              <p
+                class="text-sm font-semibold uppercase tracking-[0.2em] text-gray-500 mb-6"
+              >
+                Pillar 02
+              </p>
+
+              <h3
+                class="font-display text-3xl md:text-4xl font-semibold uppercase leading-tight tracking-tight mb-6"
+              >
+                Authentic Engineering Tooling
+              </h3>
+
+              <p class="text-base leading-relaxed text-gray-700">
+                Classrooms often isolate students in proprietary sandboxes that
+                differ drastically from professional environments. By
+                integrating standard version control (Git), modern terminal
+                workflows, and automated continuous integration (GitHub
+                Classroom), students graduate with practical muscle memory
+                applicable to collegiate computing and industry internships.
+              </p>
+            </article>
+
+            <!-- Pillar 03 -->
+            <article class="border-t-4 border-black pt-6">
+              <p
+                class="text-sm font-semibold uppercase tracking-[0.2em] text-gray-500 mb-6"
+              >
+                Pillar 03
+              </p>
+
+              <h3
+                class="font-display text-3xl md:text-4xl font-semibold uppercase leading-tight tracking-tight mb-6"
+              >
+                Equitable Access &amp; Broadening STEM
+              </h3>
+
+              <p class="text-base leading-relaxed text-gray-700">
+                Computer science literacy must not remain an exclusive domain.
+                Through culturally responsive computational units, collaborative
+                pair-programming protocols, and proactive outreach, our
+                department demystifies advanced tracks like AP CS A, actively
+                dismantling barriers for underrepresented students and
+                first-time coders.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+             INSTRUCTIONAL METHODOLOGY & LAB CULTURE
+        ========================================= -->
+
+      <section class="border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 py-16 md:py-24">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+            <!-- Section Title -->
+            <div class="lg:col-span-4">
+              <p
+                class="text-sm font-semibold uppercase tracking-[0.2em] text-gray-500"
+              >
+                Classroom Practice
+              </p>
+
+              <h2
+                class="font-display text-4xl md:text-5xl uppercase leading-tight tracking-tight mt-4"
+              >
+                Instructional<br />
+                Methodology<br />
+                &amp; Lab Culture
+              </h2>
+            </div>
+
+            <!-- Methodology Details -->
+            <div class="lg:col-span-8 space-y-12">
+              <!-- Methodology 1 -->
+              <article class="border-b border-gray-200 pb-10">
+                <div class="flex items-start gap-5">
+                  <span
+                    class="font-display text-2xl font-semibold text-gray-400"
+                  >
+                    01
+                  </span>
+
+                  <div>
+                    <h3
+                      class="font-display text-2xl md:text-3xl font-semibold uppercase leading-tight tracking-tight mb-4"
+                    >
+                      Driver-Navigator Pair Programming
+                    </h3>
+
+                    <p
+                      class="text-base md:text-lg leading-relaxed text-gray-700"
+                    >
+                      Students alternate roles daily—verbalizing logic, catching
+                      edge cases before compilation, and building collaborative
+                      communication essential to software teams.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Methodology 2 -->
+              <article>
+                <div class="flex items-start gap-5">
+                  <span
+                    class="font-display text-2xl font-semibold text-gray-400"
+                  >
+                    02
+                  </span>
+
+                  <div>
+                    <h3
+                      class="font-display text-2xl md:text-3xl font-semibold uppercase leading-tight tracking-tight mb-4"
+                    >
+                      Test-Driven Lab Exercises
+                    </h3>
+
+                    <p
+                      class="text-base md:text-lg leading-relaxed text-gray-700"
+                    >
+                      Assignments are accompanied by student-written unit tests,
+                      requiring learners to define expected outputs and test
+                      boundary conditions before implementing algorithms.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========================================
+         FOOTER
+    ========================================= -->
+
+    <footer class="border-t border-black">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 py-12">
+        <div
+          class="flex flex-col md:flex-row md:items-end md:justify-between gap-8"
+        >
+          <!-- Copyright -->
+          <div>
+            <p
+              class="font-display text-xl font-semibold uppercase tracking-tight mb-2"
+            >
+              Ken Austria
+            </p>
+
+            <p class="text-sm text-gray-500">
+              &copy; 2026 Ken Austria. Software Engineer + Computer Science
+              Educator.
+            </p>
+          </div>
+
+          <!-- Footer CTA -->
+          <div>
+            <a
+              href="contact.html"
+              class="inline-flex items-center border-b-2 border-black pb-1 text-sm font-semibold uppercase tracking-wide hover:opacity-60 transition-opacity"
+            >
+              Get in touch
+              <span class="ml-3 text-lg" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+```
